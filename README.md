@@ -17,8 +17,5 @@
 - **Outlier and Validation**: Capped 'Income' >$200,000 (affected 3 rows); corrected any negative purchases to 0; validated 'year_birth' <=2025 and added 'age' column (flagged ages >120 as NaN).
 - **Final Stats**: No remaining issues; dataset ready for analysis.
 
-## Screenshots
-- Before/after df.info() [insert images]
-
 ## Code
 See task1.ipynb for full code.
