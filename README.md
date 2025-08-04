@@ -5,12 +5,12 @@
 - Cleaned: cleaned_marketing_campaign.csv
 
 ## Tools Used
-- Python (Pandas)
+- Python (Pandas , Numpy)
 
 ## Summary of Changes
 - **Loaded and Inspected**: Dataset has 2240 rows and 29 columns; identified missing values in 'Income' (24 nulls).
-- **Renamed Columns**: Standardized to lowercase with underscores (e.g., 'Year_Birth' -> 'year_birth').
 - **Handled Missing Values**: Filled 24 missing 'Income' with median (~$52,247) to preserve data.
+- **Renamed Columns**: Standardized to lowercase with underscores (e.g., 'Year_Birth' -> 'year_birth').
 - **Removed Duplicates**: No duplicates found after checking.
 - **Standardized Text**: Trimmed and title-cased 'Education' and 'Marital_Status' (e.g., mapped '2n Cycle' to 'Master').
 - **Fixed Data Types/Formats**: Converted 'Dt_Customer' to datetime (format '%d-%m-%Y'); ensured 'year_birth' as int and 'income' as float.
@@ -21,4 +21,4 @@
 - Before/after df.info() [insert images]
 
 ## Code
-See cleaning_script.py for full code.
+See task1.ipynb for full code.
